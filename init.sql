@@ -1,0 +1,6 @@
+CREATE DATABASE ejemplo_db;
+USE ejemplo_db;
+CREATE TABLE data (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL
+);
